@@ -438,6 +438,8 @@ int main()
         // Tran Nhat Tan - CD230137
         case 1:
         {
+        TranNhatTan:
+            system("cls");
             printf("\nBan da lua chon sinh vien Tran Nhat Tan - CD230137\n");
             printf("\nDe Bai: ");
             printf("Buoi 6: Mang 2 chieu (ma tran)");
@@ -474,7 +476,7 @@ int main()
                 MaxRowMinCol_6_2_Tan_CD230137(a_6_2_Tan_CD230137, m_6_2_Tan_CD230137, n_6_2_Tan_CD230137);
                 printf("\n");
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Tran Nhat Tan\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -482,6 +484,10 @@ int main()
                     goto bai_6_2;
                 }
                 else if (k == 2)
+                {
+                    goto TranNhatTan;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
@@ -531,7 +537,7 @@ int main()
                 }
                 printf("\n");
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Tran Nhat Tan\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -539,6 +545,10 @@ int main()
                     goto bai_7_1;
                 }
                 else if (k == 2)
+                {
+                    goto TranNhatTan;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
@@ -578,7 +588,7 @@ int main()
                 SapXepDesc_7_1_Tan_CD230137(p, n_7_1_Tan_CD230137);
                 printf("\n");
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Tran Nhat Tan\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -586,6 +596,10 @@ int main()
                     goto bai_7_2;
                 }
                 else if (k == 2)
+                {
+                    goto TranNhatTan;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
@@ -599,6 +613,8 @@ int main()
         // Nguyen Bao Minh - CD230600
         case 2:
         {
+        NguyenBaoMinh:
+            system("cls");
             printf("\nBan da lua chon sinh vien Nguyen Bao Minh - CD230600\n");
             printf("\nDe Bai: ");
             printf("Buoi 5: Cac thao tac voi mang 1 chieu");
@@ -618,8 +634,8 @@ int main()
             {
             case 1:
             {
-            bai_5_1: // Nguyen Bao Minh - CD230600
                 int n_5_1_Minh_CD230600, a_5_1_Minh_CD230600[100];
+            bai_5_1: // Nguyen Bao Minh - CD230600
                 system("cls");
                 printf("Nguyen Bao Minh - CD230600\n\n");
                 printf("DE BAI:\nNhap mang gom n so nguyen tu ban phim\nXuat mang vua nhap ra ban phim\n");
@@ -638,7 +654,7 @@ int main()
                 }
                 printf("\n");
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Nguyen Bao Minh\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -646,6 +662,10 @@ int main()
                     goto bai_5_1;
                 }
                 else if (k == 2)
+                {
+                    goto NguyenBaoMinh;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
@@ -655,9 +675,9 @@ int main()
 
             case 2:
             {
-            bai_5_2: // Nguyen Bao Minh - CD230600
                 int n_5_2_Minh_CD230600, a_5_2_Minh_CD230600[100], m_5_2_Minh_CD230600, k_5_2_Minh_CD230600, count_5_2_Minh_CD230600 = 0;
-                do // vòng lặp này ép người nhập phải nhập đúng n nguyên dương thì chương trình mới tiếp tục
+            bai_5_2: // Nguyen Bao Minh - CD230600
+                do   // vòng lặp này ép người nhập phải nhập đúng n nguyên dương thì chương trình mới tiếp tục
                 {
                     system("cls"); // xóa màn hình 'nhap vao so nguyen duong n =' của vòng lặp khi nhập sai
                     printf("Nguyen Bao Minh - CD230600\n\n");
@@ -709,7 +729,7 @@ int main()
                 }
                 printf("\nTONG CAC SO CHINH PHUONG TRONG MANG LA: %d\n", tongsochinhphuong(a_5_2_Minh_CD230600, n_5_2_Minh_CD230600));
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Nguyen Bao Minh\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -717,6 +737,10 @@ int main()
                     goto bai_5_2;
                 }
                 else if (k == 2)
+                {
+                    goto NguyenBaoMinh;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
@@ -726,9 +750,9 @@ int main()
 
             case 3:
             {
-            bai_6_1: // Nguyen Bao Minh - CD230600
                 int m_6_1_Minh_CD230600, k_6_1_Minh_CD230600, n_6_1_Minh_CD230600, a_6_1_Minh_CD230600[100][100], b_6_1_Minh_CD230600[100][100];
-                do // vòng lặp này ép người nhập phải nhập đúng m_6_1_Minh_CD230600 nguyên dương thì chương trình mới tiếp tục
+            bai_6_1: // Nguyen Bao Minh - CD230600
+                do   // vòng lặp này ép người nhập phải nhập đúng m_6_1_Minh_CD230600 nguyên dương thì chương trình mới tiếp tục
                 {
                     system("cls"); // xóa màn hình 'nhap vao so nguyen duong m =' của vòng lặp khi nhập sai
                     printf("Nguyen Bao Minh - CD230600\n\n");
@@ -759,7 +783,7 @@ int main()
                 printf("\nIN RA MA TRAN c = a * b\n");
                 xuatmangc2chieu_6_1_Minh_CD230600(c_6_1_Minh_CD230600, m_6_1_Minh_CD230600, n_6_1_Minh_CD230600);
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Nguyen Bao Minh\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -767,6 +791,10 @@ int main()
                     goto bai_6_1;
                 }
                 else if (k == 2)
+                {
+                    goto NguyenBaoMinh;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
@@ -780,6 +808,8 @@ int main()
         // Pham Bao Loc - CD230056
         case 3:
         {
+        PhamBaoLoc:
+            system("cls");
             printf("\nBan da lua chon sinh vien Pham Bao Loc - CD230056\n");
             printf("\nDe Bai: ");
             printf("Buoi 1: Viet chuong trinh don gian");
@@ -794,8 +824,8 @@ int main()
             {
             case 1:
             {
-            bai_1_1:
                 int X_1_1_Loc_CD230056;
+            bai_1_1:
                 do
                 {
                     system("cls");
@@ -814,7 +844,7 @@ int main()
                 printf("CHU SO HANG CHUC LA: %d\n", chuc_1_1_Loc_CD230056);
                 printf("CHU SO HANG DON VI LA: %d\n", donvi_1_1_Loc_CD230056);
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Pham Bao Loc\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -822,6 +852,10 @@ int main()
                     goto bai_1_1;
                 }
                 else if (k == 2)
+                {
+                    goto PhamBaoLoc;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
@@ -832,8 +866,8 @@ int main()
 
             case 2:
             {
-            bai_1_2: // Pham Bao Loc - CD230056
                 int a_1_2_Loc_CD230056, b_1_2_Loc_CD230056, c_1_2_Loc_CD230056, Max_1_2_Loc_CD230056;
+            bai_1_2: // Pham Bao Loc - CD230056
                 do
                 {
                     system("cls");
@@ -857,7 +891,7 @@ int main()
                 }
                 printf("\nSO LON NHAT TRONG BA SO a, b, c LA: MAX = %d\n", Max_1_2_Loc_CD230056);
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Pham Bao Loc\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -865,6 +899,10 @@ int main()
                     goto bai_1_2;
                 }
                 else if (k == 2)
+                {
+                    goto PhamBaoLoc;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
@@ -899,7 +937,7 @@ int main()
                 }
                 printf("\n");
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Pham Bao Loc\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -907,6 +945,10 @@ int main()
                     goto bai_2_1;
                 }
                 else if (k == 2)
+                {
+                    goto PhamBaoLoc;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
@@ -920,6 +962,8 @@ int main()
         // Nguyen Sy Manh - CD230067
         case 4:
         {
+        NguyenSyManh:
+            system("cls");
             printf("\nBan da lua chon sinh vien Nguyen Sy Manh - CD230067\n");
             printf("\nDe Bai: ");
             printf("Buoi 3: Vong lap for, while, do while");
@@ -951,7 +995,7 @@ int main()
                 }
                 printf("\n");
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Nguyen Sy Manh\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -959,6 +1003,10 @@ int main()
                     goto bai_3_2;
                 }
                 else if (k == 2)
+                {
+                    goto NguyenSyManh;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
@@ -985,7 +1033,7 @@ int main()
                 }
                 printf("\n");
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Nguyen Sy Manh\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -993,6 +1041,10 @@ int main()
                     goto bai_4_1;
                 }
                 else if (k == 2)
+                {
+                    goto NguyenSyManh;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
@@ -1019,7 +1071,7 @@ int main()
                 }
                 printf("\n");
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Nguyen Sy Manh\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -1027,6 +1079,10 @@ int main()
                     goto bai_4_2;
                 }
                 else if (k == 2)
+                {
+                    goto NguyenSyManh;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
@@ -1041,11 +1097,13 @@ int main()
         // Dang Nguyen Bao Linh - CD233494
         case 5:
         {
+        DangNguyenBaoLinh:
+            system("cls");
             printf("\nBan da lua chon sinh vien Dang Nguyen Bao Linh - CD233494\n");
             printf("\nDe Bai: ");
             printf("Buoi 2: Cau truc re nhanh if else, switch case");
             printf("\n        Buoi 3: Vong lap for, while, do while\n\n");
-            printf("(1) Buoi2 - Bai2: Tim cac so tu 10 den 99 sao cho tich cua 2 chu so bang 2 lan tong cua 2 chu so\n");
+            printf("(1) Buoi2 - Bai2: Giai phuong trinh bac hai\n");
             printf("(2) Buoi3 - Bai1: Nhap 3 so nguyen a, b va n voi a, b < n\n                  Tinh tong cac so nguyen duong nho hon n chia het cho a nhung khong chia het cho b\n");
             int m;
             printf("\nLua chon bai tap so: ");
@@ -1108,7 +1166,7 @@ int main()
                     printf("\na = 0 PHUONG TRINH TRO THANH PHUONG TRINH BAC NHAT\n");
 
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Dang Nguyen Bao Linh\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -1116,6 +1174,10 @@ int main()
                     goto bai_2_2;
                 }
                 else if (k == 2)
+                {
+                    goto DangNguyenBaoLinh;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
@@ -1125,8 +1187,8 @@ int main()
 
             case 2:
             {
-            bai_3_1: // Dang Nguyen Bao Linh - CD233494
                 int a_3_1_Linh_CD233494, b_3_1_Linh_CD233494, n_3_1_Linh_CD233494, tong_3_1_Linh_CD233494 = 0;
+            bai_3_1: // Dang Nguyen Bao Linh - CD233494
                 do
                 {
                     system("cls");
@@ -1154,7 +1216,7 @@ int main()
 
                 printf("\n");
                 printf("\n");
-                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac\n");
+                printf("Nhan 1 de thuc hien lai chuong trinh nay\nNhan 2 de thuc hien chuong trinh khac cua sinh vien Dang Nguyen Bao Linh\nNhan 3 de thuc hien chuong trinh khac\n");
                 int k;
                 scanf("%d", &k);
                 if (k == 1)
@@ -1162,6 +1224,10 @@ int main()
                     goto bai_3_1;
                 }
                 else if (k == 2)
+                {
+                    goto DangNguyenBaoLinh;
+                }
+                else if (k == 3)
                 {
                     break;
                 }
